@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="base">
+      <div class="click-area"></div>
+      <div class="parameters">
+        <table class="param-table">
+          <tr>
+            <th>座標</th>
+          </tr>
+          <tr>
+            <td>offset(クリックした要素内の左上が原点)</td>
+            <td id="offset-param"></td>
+          </tr>
+          <tr>
+            <td>client(現在表示している左上が原点)</td>
+            <td id="client-param"></td>
+          </tr>
+          <tr>
+            <td>page(スクロール分を含んだページの左上が原点)</td>
+            <td id="page-param"></td>
+          </tr>
+          <tr>
+            <td>screen(ディスプレイの左上が原点)</td>
+            <td id="screen-param"></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <script type="text/javascript" src="index.js"></script>
+  </body>
+</html>

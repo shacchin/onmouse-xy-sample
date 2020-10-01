@@ -1,0 +1,29 @@
+html,
+body {
+  background-color: #666666;
+  color: #ffffff;
+}
+
+.base {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.click-area {
+  margin: 80px;
+  width: 100%;
+  height: 1000px;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.4) inset;
+}
+
+.parameters {
+  margin: 80px;
+  width: 100%;
+  height: 400px;
+}
+
+.param-table td {
+  padding-bottom: 8px;
+}
