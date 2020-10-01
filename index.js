@@ -1,7 +1,5 @@
 const showParam = (id, x, y) => {
   const element = document.getElementById(`${id}`);
-  // const newContent = document.createTextNode(`(${x}, ${y})`);
-  // element.insertBefore(newContent, element.firstChild);
   element.innerText = `(${x}, ${y})`;
 };
 
